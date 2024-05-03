@@ -288,7 +288,7 @@ struct FileInputScheme : CurlInputScheme
                 : (!requireTree && !hasTarballExtension(url.path)));
     }
 
-    std::pair<ref<InputAccessor>, Input> getAccessor(ref<Store> store, const Input & _input) const override
+    std::pair<ref<SourceAccessor>, Input> getAccessor(ref<Store> store, const Input & _input) const override
     {
         auto input(_input);
 
@@ -323,7 +323,7 @@ struct TarballInputScheme : CurlInputScheme
                 : (requireTree || hasTarballExtension(url.path)));
     }
 
-    std::pair<ref<InputAccessor>, Input> getAccessor(ref<Store> store, const Input & _input) const override
+    std::pair<ref<SourceAccessor>, Input> getAccessor(ref<Store> store, const Input & _input) const override
     {
         auto input(_input);
 
