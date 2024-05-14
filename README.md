@@ -1,3 +1,14 @@
+Hi! As part of our roadmap changes, we’ve decided to focus on providing our ground-up alternative for nixpkgs rather than duplicating work with the [Lix project](https://lix.systems).
+
+If you’re using this repository, we suggest you install Lix by following [their install guide](https://lix.systems/install/)!
+
+If you’re interested in why we chose this, we’ve made [a full update of our roadmap on our forums](https://forum.aux.computer/t/updates-and-clarifications-to-our-roadmap/593?u=minion) which goes further into the detail of this and several other decisions.
+
+Thanks,
+The Auxolotl steering committee.
+
+---
+
 # Nix
 
 [![Open Collective supporters](https://opencollective.com/nixos/tiers/supporter/badge.svg?label=Supporters&color=brightgreen)](https://opencollective.com/nixos)
